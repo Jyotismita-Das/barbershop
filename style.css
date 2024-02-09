@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#009688) ,url(Razz-Hair-Salon-home-12-1.jpg);
@@ -177,14 +176,16 @@ nav ul li a{
     margin-bottom: 40px;
 
 }
-.feature-icon .fa-solid{
-    width: 30px;
+.feature-icon {
+    width: 34px;
     font-size: 20px;
-    height: 30px;
-    line-height:30px;
+    height: 34px;
     border-radius: 50px;
     color: #009688;
     border: 1px solid #009688;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .feature-text p{
     padding: 0 20px;
@@ -203,6 +204,9 @@ nav ul li a{
     }
     .feature-img img{
         width:100%;
+    }
+    .feature-icon {
+       border: none;
     }
 }
 /*-------- service-------- */
